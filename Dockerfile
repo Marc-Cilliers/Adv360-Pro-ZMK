@@ -2,6 +2,7 @@ FROM docker.io/zmkfirmware/zmk-build-arm:stable
 
 WORKDIR /app
 
+
 COPY config/west.yml config/west.yml
 
 # West Init
